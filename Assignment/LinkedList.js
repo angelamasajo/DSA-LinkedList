@@ -1,3 +1,5 @@
+const _Node = require('./Node')
+
 class LinkedList {
   constructor() {
     this.head = null
@@ -59,3 +61,5 @@ class LinkedList {
   } 
 
 }
+
+module.exports = LinkedList
