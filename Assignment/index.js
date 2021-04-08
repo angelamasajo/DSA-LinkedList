@@ -15,6 +15,17 @@ function main() {
   SLL.insertBefore('Athena', 'Boomer')
   SLL.insertAfter('Hotdog', 'Helo')
   SLL.insertAt('Kat', 3)
+  SLL.remove('Tauhida')
+
+  SLL.size()
+  SLL.display()
+
+  console.log(SLL.isEmpty());
+  console.log(SLL.findPrevious('Apollo'));
+  console.log(SLL.findLast());
+  console.log('reverse')
+  SSL.reverseList();
+  SSL.display();
   console.log(SLL)
 }
 
