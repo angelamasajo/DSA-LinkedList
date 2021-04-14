@@ -15,7 +15,7 @@ class LinkedList {
   // O(n) operation d/t iterating throughout list
   // create a new node item, 
   // check to see if list is empty then insert new item  as only item in the list; 
-  // start at beginning of list then move through list until u reah end of list; 
+  // start at beginning of list then move through list until u reach end of list; 
   // set end node's next pointer to new node
   // new node's next pointer is null, indicating new node is last node on list
   insertLast(item) {
